@@ -9,7 +9,7 @@ export default class CustomSelect extends Component {
     return !isEqual(nextProps.value, this.props.value)
   }
   componentDidUpdate() {
-    if (this.props.total - 1 < this.props.id ) {
+    if (this.props.total - 3 < this.props.id ) {
       this.props.onAppend()
     }
   }
