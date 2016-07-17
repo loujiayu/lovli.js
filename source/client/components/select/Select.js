@@ -1,7 +1,6 @@
 import React, {Component, PropTypes} from 'react'
 import { Select } from 'antd'
 import isEqual from 'lodash.isequal'
-// const Option = Select.Option;
 
 export default class CustomSelect extends Component {
   shouldComponentUpdate(nextProps) {
