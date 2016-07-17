@@ -41,7 +41,6 @@ class Table extends Component {
         }
         for (let i=0; i<4; i++) {
           collection.upsert({id: i, info:''})
-          // collection.upsert({id: i, name: [], tags:[],sex: null, info:null})
         }
       }
     )

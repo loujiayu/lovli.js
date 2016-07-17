@@ -4,7 +4,6 @@ import isEqual from 'lodash.isequal'
 // const Option = Select.Option;
 
 export default class CustomSelect extends Component {
-
   shouldComponentUpdate(nextProps) {
     return !isEqual(nextProps.value, this.props.value)
   }
