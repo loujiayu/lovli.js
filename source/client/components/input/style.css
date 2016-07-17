@@ -1,0 +1,12 @@
+.input {
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  flex: 1;  
+  /*transition: all 250ms ease;*/
+}
+.inputWrapper {
+  /*width: 100%;*/
+}

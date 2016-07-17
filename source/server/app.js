@@ -4,7 +4,7 @@ import horizon from '@horizon/server';
 import devProps from '../../config/webpack/devProps';
 import config from '../../config/page';
 
-import './jobs';
+// import './jobs';
 
 const app = express();
 

@@ -11,7 +11,7 @@ const history = syncHistoryWithStore(browserHistory, store);
 
 // Route configuration
 export default (
-  <Router history={history}>
+  <Router history={history} store={store}>
     <Route path="/" component={App} />
   </Router>
 );
